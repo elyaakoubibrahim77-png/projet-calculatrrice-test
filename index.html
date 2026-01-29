@@ -11,8 +11,14 @@
     <h1>Bienvenue sur mon projet de Calculatrice</h1>
 
     <div class="calculator">
+     <div class="display-wrapper">
       <input type="text" id="screen" value="0" disabled>
-
+      <div class="history-icon" id="toggleHistory">⟳</div>
+     </div>
+     <div class="history-panel" id="historyPanel">
+      <p class="history-title">Historique</p>
+      <ul id="historyList"></ul>
+     </div>
       <div class="buttons">
         <button class="btn action">AC</button>
         <button class="btn action">DEL</button>
